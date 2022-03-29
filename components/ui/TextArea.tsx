@@ -1,2 +1,3 @@
 import * as React from 'react';
-import { cn } fr
+import { cn } from '@/utils/cn';
+
