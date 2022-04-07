@@ -9,4 +9,4 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
     return (
       <textarea
         className={cn(
-          'flex h-20 w-full rounded
+          'flex h-20 w-full rounded-md border border-sl
