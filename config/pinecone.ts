@@ -4,4 +4,4 @@
 
 const PINECONE_INDEX_NAME = 'langchainjsfundamentals';
 
-const PINECONE_NAME_SPA
+const PINECONE_NAME_SPACE = 'pdf-test'; //nam
