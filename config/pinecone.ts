@@ -4,4 +4,6 @@
 
 const PINECONE_INDEX_NAME = 'langchainjsfundamentals';
 
-const PINECONE_NAME_SPACE = 'pdf-test'; //namespace is optional for you
+const PINECONE_NAME_SPACE = 'pdf-test'; //namespace is optional for your vectors
+
+export {
