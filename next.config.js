@@ -1,1 +1,2 @@
-/** @type {impor
+/** @type {import('next').NextConfig} */
+cons
