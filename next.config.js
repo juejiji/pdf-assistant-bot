@@ -1,2 +1,3 @@
 /** @type {import('next').NextConfig} */
-cons
+const nextConfig = {
+  reactStrict
