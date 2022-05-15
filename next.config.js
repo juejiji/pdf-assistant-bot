@@ -2,4 +2,5 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  webpack(con
+  webpack(config) {
+    config.e
