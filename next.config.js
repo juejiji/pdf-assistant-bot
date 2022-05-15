@@ -3,4 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   webpack(config) {
-    config.e
+    config.experiments = { ...config.expe
