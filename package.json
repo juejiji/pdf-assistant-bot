@@ -1,4 +1,6 @@
 {
   "name": "gpt4-langchain-pdf-chatbot",
   "version": "0.1.0",
-  "private"
+  "private": true,
+  "engines": {
+    "
