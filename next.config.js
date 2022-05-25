@@ -4,4 +4,6 @@ const nextConfig = {
   swcMinify: true,
   webpack(config) {
     config.experiments = { ...config.experiments, topLevelAwait: true };
-    return 
+    return config;
+  },
+}
