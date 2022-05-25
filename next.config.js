@@ -3,4 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   webpack(config) {
-    config.experiments = { ...config.expe
+    config.experiments = { ...config.experiments, topLevelAwai
