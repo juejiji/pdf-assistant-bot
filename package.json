@@ -11,4 +11,5 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "s
+    "start": "next start",
+    "type-ch
