@@ -12,4 +12,5 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-ch
+    "type-check": "tsc --noEmit",
+    
