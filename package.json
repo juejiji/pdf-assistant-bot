@@ -13,4 +13,4 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit",
-    "lint": "eslint --ignore-path 
+    "lint": "eslint --ignore-path .gitignore \"**/*.+(t
