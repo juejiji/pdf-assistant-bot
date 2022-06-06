@@ -14,4 +14,4 @@
     "start": "next start",
     "type-check": "tsc --noEmit",
     "lint": "eslint --ignore-path .gitignore \"**/*.+(ts|js|tsx)\"",
-    "format": "pre
+    "format": "prettier --ignore-path .gitignor
