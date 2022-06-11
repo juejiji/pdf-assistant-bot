@@ -17,4 +17,5 @@
     "format": "prettier --ignore-path .gitignore \"**/*.+(ts|js|tsx)\" --write",
     "ingest": "tsx -r dotenv/config scripts/ingest-data.ts"
   },
- 
+  "dependencies": {
+    "@micros
