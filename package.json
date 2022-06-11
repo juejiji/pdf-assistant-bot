@@ -15,4 +15,6 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint --ignore-path .gitignore \"**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"**/*.+(ts|js|tsx)\" --write",
-    "ingest": "tsx -r dotenv/config scr
+    "ingest": "tsx -r dotenv/config scripts/ingest-data.ts"
+  },
+ 
