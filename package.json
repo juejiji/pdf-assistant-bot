@@ -18,4 +18,5 @@
     "ingest": "tsx -r dotenv/config scripts/ingest-data.ts"
   },
   "dependencies": {
-    "@microsoft/fetch-event-source": "^2.0.
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@pinecone-data
