@@ -19,4 +19,5 @@
   },
   "dependencies": {
     "@microsoft/fetch-event-source": "^2.0.1",
-    "@pinecone-data
+    "@pinecone-database/pinecone": "^0.0.10",
+  
