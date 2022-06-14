@@ -21,4 +21,5 @@
     "@microsoft/fetch-event-source": "^2.0.1",
     "@pinecone-database/pinecone": "^0.0.10",
     "@radix-ui/react-accordion": "^1.1.1",
-    "clsx"
+    "clsx": "^1.2.1",
+    "dotenv": "^16
