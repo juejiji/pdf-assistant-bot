@@ -22,4 +22,5 @@
     "@pinecone-database/pinecone": "^0.0.10",
     "@radix-ui/react-accordion": "^1.1.1",
     "clsx": "^1.2.1",
-    "dotenv": "^16
+    "dotenv": "^16.0.3",
+    "langchain": "0.0
