@@ -24,4 +24,5 @@
     "clsx": "^1.2.1",
     "dotenv": "^16.0.3",
     "langchain": "0.0.33",
-    "lucide-react": "^0.
+    "lucide-react": "^0.125.0",
+    "next"
