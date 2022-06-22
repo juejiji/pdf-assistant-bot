@@ -32,4 +32,4 @@
     "react-markdown": "^8.0.5",
     "tailwind-merge": "^1.10.0"
   },
-  
+  "devDependencies":
