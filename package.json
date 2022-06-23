@@ -38,4 +38,5 @@
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/parser": "^5.54.0",
     "autoprefixer": "^10.4.13",
-    "eslint": "8.35.
+    "eslint": "8.35.0",
+    "eslint-config-ne
