@@ -39,4 +39,5 @@
     "@typescript-eslint/parser": "^5.54.0",
     "autoprefixer": "^10.4.13",
     "eslint": "8.35.0",
-    "eslint-config-ne
+    "eslint-config-next": "13.2.3",
+   
