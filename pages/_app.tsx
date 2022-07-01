@@ -1,2 +1,3 @@
 import '@/styles/base.css';
-import type { A
+import type { AppProps } from 'next/app';
+i
