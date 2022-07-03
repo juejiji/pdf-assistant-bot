@@ -7,4 +7,6 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
-function MyApp({ Component, pageProps }: AppPro
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
