@@ -7,4 +7,4 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
-functi
+function MyApp({ Compo
