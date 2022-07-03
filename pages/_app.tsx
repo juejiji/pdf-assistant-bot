@@ -10,4 +10,5 @@ const inter = Inter({
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <main className=
+      <main className={inter.variable}>
+ 
