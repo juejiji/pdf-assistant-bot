@@ -1,3 +1,5 @@
 import '@/styles/base.css';
 import type { AppProps } from 'next/app';
-import { Inter } from 'ne
+import { Inter } from 'next/font/google';
+
+const i
