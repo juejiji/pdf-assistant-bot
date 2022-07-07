@@ -11,4 +11,5 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <main className={inter.variable}>
-        <Component {..
+        <Component {...pageProps} />
+      <
