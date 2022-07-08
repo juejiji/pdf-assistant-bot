@@ -12,4 +12,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <main className={inter.variable}>
         <Component {...pageProps} />
-      <
+      </main>
+    </>
+  );
+}
+
