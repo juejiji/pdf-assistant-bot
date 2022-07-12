@@ -33,3 +33,20 @@ export default async function handler(
     'Cache-Control': 'no-cache, no-transform',
     Connection: 'keep-alive',
   });
+
+  const sendData = (data: string) => {
+    res.write(`data: ${data}\n\n`);
+  };
+
+  sendData(JSON.stringify({ data: '' }));
+
+  //create chain
+  const chain = makeChain(vectorStore, (token: string) => {
+    sendData(JSON.stringify({ data: token }));
+  });
+
+  try {
+    //Ask a question
+    const response = await chain.call({
+      question: sanitizedQuestion,
+      chat_history: history || [],
