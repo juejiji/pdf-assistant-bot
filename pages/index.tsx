@@ -28,3 +28,37 @@ export default function Home() {
   }>({
     messages: [
       {
+        message: 'Hi, what would you like to learn about this legal case?',
+        type: 'apiMessage',
+      },
+    ],
+    history: [],
+    pendingSourceDocs: [],
+  });
+
+  const { messages, pending, history, pendingSourceDocs } = messageState;
+
+  const messageListRef = useRef<HTMLDivElement>(null);
+  const textAreaRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    textAreaRef.current?.focus();
+  }, []);
+
+  //handle form submission
+  async function handleSubmit(e: any) {
+    e.preventDefault();
+
+    setError(null);
+
+    if (!query) {
+      alert('Please input a question');
+      return;
+    }
+
+    const question = query.trim();
+
+    setMessageState((state) => ({
+      ...state,
+      messages: [
+        ...state.messages,
