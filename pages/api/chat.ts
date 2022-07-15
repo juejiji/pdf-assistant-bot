@@ -50,3 +50,14 @@ export default async function handler(
     const response = await chain.call({
       question: sanitizedQuestion,
       chat_history: history || [],
+    });
+
+    console.log('response', response);
+    sendData(JSON.stringify({ sourceDocs: response.sourceDocuments }));
+  } catch (error) {
+    console.log('error', error);
+  } finally {
+    sendData('[DONE]');
+    res.end();
+  }
+}
