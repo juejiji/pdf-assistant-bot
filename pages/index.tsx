@@ -62,3 +62,26 @@ export default function Home() {
       ...state,
       messages: [
         ...state.messages,
+        {
+          type: 'userMessage',
+          message: question,
+        },
+      ],
+      pending: undefined,
+    }));
+
+    setLoading(true);
+    setQuery('');
+    setMessageState((state) => ({ ...state, pending: '' }));
+
+    const ctrl = new AbortController();
+
+    try {
+      fetchEventSource('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          question,
+          history,
