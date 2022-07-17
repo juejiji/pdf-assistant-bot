@@ -85,3 +85,20 @@ export default function Home() {
         body: JSON.stringify({
           question,
           history,
+        }),
+        signal: ctrl.signal,
+        onmessage: (event) => {
+          if (event.data === '[DONE]') {
+            setMessageState((state) => ({
+              history: [...state.history, [question, state.pending ?? '']],
+              messages: [
+                ...state.messages,
+                {
+                  type: 'apiMessage',
+                  message: state.pending ?? '',
+                  sourceDocs: state.pendingSourceDocs,
+                },
+              ],
+              pending: undefined,
+              pendingSourceDocs: undefined,
+            }));
