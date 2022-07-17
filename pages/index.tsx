@@ -133,3 +133,29 @@ export default function Home() {
       if (e.key === 'Enter' && query) {
         handleSubmit(e);
       } else if (e.key == 'Enter') {
+        e.preventDefault();
+      }
+    },
+    [query],
+  );
+
+  const chatMessages = useMemo(() => {
+    return [
+      ...messages,
+      ...(pending
+        ? [
+            {
+              type: 'apiMessage',
+              message: pending,
+              sourceDocs: pendingSourceDocs,
+            },
+          ]
+        : []),
+    ];
+  }, [messages, pending, pendingSourceDocs]);
+
+  //scroll to bottom of chat
+  useEffect(() => {
+    if (messageListRef.current) {
+      messageListRef.current.scrollTop = messageListRef.current.scrollHeight;
+    }
