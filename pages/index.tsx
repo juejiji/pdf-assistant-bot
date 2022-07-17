@@ -102,3 +102,34 @@ export default function Home() {
               pending: undefined,
               pendingSourceDocs: undefined,
             }));
+            setLoading(false);
+            ctrl.abort();
+          } else {
+            const data = JSON.parse(event.data);
+            if (data.sourceDocs) {
+              setMessageState((state) => ({
+                ...state,
+                pendingSourceDocs: data.sourceDocs,
+              }));
+            } else {
+              setMessageState((state) => ({
+                ...state,
+                pending: (state.pending ?? '') + data.data,
+              }));
+            }
+          }
+        },
+      });
+    } catch (error) {
+      setLoading(false);
+      setError('An error occurred while fetching the data. Please try again.');
+      console.log('error', error);
+    }
+  }
+
+  //prevent empty submissions
+  const handleEnter = useCallback(
+    (e: any) => {
+      if (e.key === 'Enter' && query) {
+        handleSubmit(e);
+      } else if (e.key == 'Enter') {
