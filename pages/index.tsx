@@ -181,3 +181,31 @@ export default function Home() {
                         alt="AI"
                         width="40"
                         height="40"
+                        className={styles.boticon}
+                        priority
+                      />
+                    );
+                    className = styles.apimessage;
+                  } else {
+                    icon = (
+                      <Image
+                        src="/usericon.png"
+                        alt="Me"
+                        width="30"
+                        height="30"
+                        className={styles.usericon}
+                        priority
+                      />
+                    );
+                    // The latest message sent by the user will be animated while waiting for a response
+                    className =
+                      loading && index === chatMessages.length - 1
+                        ? styles.usermessagewaiting
+                        : styles.usermessage;
+                  }
+                  return (
+                    <>
+                      <div key={`chatMessage-${index}`} className={className}>
+                        {icon}
+                        <div className={styles.markdownanswer}>
+                          <ReactMarkdown linkTarget="_blank">
