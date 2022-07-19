@@ -159,3 +159,25 @@ export default function Home() {
     if (messageListRef.current) {
       messageListRef.current.scrollTop = messageListRef.current.scrollHeight;
     }
+  }, [chatMessages]);
+
+  return (
+    <>
+      <Layout>
+        <div className="mx-auto flex flex-col gap-4">
+          <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
+            Chat With Your Legal Docs
+          </h1>
+          <main className={styles.main}>
+            <div className={styles.cloud}>
+              <div ref={messageListRef} className={styles.messagelist}>
+                {chatMessages.map((message, index) => {
+                  let icon;
+                  let className;
+                  if (message.type === 'apiMessage') {
+                    icon = (
+                      <Image
+                        src="/bot-image.png"
+                        alt="AI"
+                        width="40"
+                        height="40"
