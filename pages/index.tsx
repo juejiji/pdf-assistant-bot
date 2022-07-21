@@ -209,3 +209,21 @@ export default function Home() {
                         {icon}
                         <div className={styles.markdownanswer}>
                           <ReactMarkdown linkTarget="_blank">
+                            {message.message}
+                          </ReactMarkdown>
+                        </div>
+                      </div>
+                      {message.sourceDocs && (
+                        <div className="p-5">
+                          <Accordion
+                            type="single"
+                            collapsible
+                            className="flex-col"
+                          >
+                            {message.sourceDocs.map((doc, index) => (
+                              <div key={`messageSourceDocs-${index}`}>
+                                <AccordionItem value={`item-${index}`}>
+                                  <AccordionTrigger>
+                                    <h3>Source {index + 1}</h3>
+                                  </AccordionTrigger>
+                                  <AccordionContent>
