@@ -250,3 +250,25 @@ export default function Home() {
                         <div key={`sourceDocs-${index}`}>
                           <AccordionItem value={`item-${index}`}>
                             <AccordionTrigger>
+                              <h3>Source {index + 1}</h3>
+                            </AccordionTrigger>
+                            <AccordionContent>
+                              <ReactMarkdown linkTarget="_blank">
+                                {doc.pageContent}
+                              </ReactMarkdown>
+                            </AccordionContent>
+                          </AccordionItem>
+                        </div>
+                      ))}
+                    </Accordion>
+                  </div>
+                )}
+              </div>
+            </div>
+            <div className={styles.center}>
+              <div className={styles.cloudform}>
+                <form onSubmit={handleSubmit}>
+                  <textarea
+                    disabled={loading}
+                    onKeyDown={handleEnter}
+                    ref={textAreaRef}
