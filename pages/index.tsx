@@ -272,3 +272,27 @@ export default function Home() {
                     disabled={loading}
                     onKeyDown={handleEnter}
                     ref={textAreaRef}
+                    autoFocus={false}
+                    rows={1}
+                    maxLength={512}
+                    id="userInput"
+                    name="userInput"
+                    placeholder={
+                      loading
+                        ? 'Waiting for response...'
+                        : 'What is this legal case about?'
+                    }
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    className={styles.textarea}
+                  />
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className={styles.generatebutton}
+                  >
+                    {loading ? (
+                      <div className={styles.loadingwheel}>
+                        <LoadingDots color="#000" />
+                      </div>
+                    ) : (
