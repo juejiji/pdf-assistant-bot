@@ -322,3 +322,6 @@ export default function Home() {
           </a>
         </footer>
       </Layout>
+    </>
+  );
+}
