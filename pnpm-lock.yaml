@@ -518,3 +518,24 @@ packages:
       rimraf: 3.0.2
     dev: false
     optional: true
+
+  /@pinecone-database/pinecone/0.0.10:
+    resolution: {integrity: sha512-SwfobqOmSQvEkEtw44uc6ZZ9R/aU5bDYkBAX0cGOcSk6wWlm5yiJA+XeZkyMeUsFb1EQaGhbafIy97TDqcnnsw==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      cross-fetch: 3.1.5
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@pkgr/utils/2.3.1:
+    resolution: {integrity: sha512-wfzX8kc1PMyUILA+1Z/EqoE4UCXGy0iRGMhPwdfae1+f0OXlLqCk+By+aMzgJBzR9AzS4CDizioG6Ss1gvAFJw==}
+    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+    dependencies:
+      cross-spawn: 7.0.3
+      is-glob: 4.0.3
+      open: 8.4.2
+      picocolors: 1.0.0
+      tiny-glob: 0.2.9
+      tslib: 2.5.0
+    dev: true
