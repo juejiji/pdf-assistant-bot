@@ -2640,3 +2640,29 @@ packages:
       redis: ^4.6.4
       serpapi: ^1.1.1
       srt-parser-2: ^1.2.2
+    peerDependenciesMeta:
+      '@dqbd/tiktoken':
+        optional: true
+      '@huggingface/inference':
+        optional: true
+      '@pinecone-database/pinecone':
+        optional: true
+      '@supabase/supabase-js':
+        optional: true
+      cheerio:
+        optional: true
+      chromadb:
+        optional: true
+      cohere-ai:
+        optional: true
+      hnswlib-node:
+        optional: true
+      puppeteer:
+        optional: true
+      redis:
+        optional: true
+      serpapi:
+        optional: true
+      srt-parser-2:
+        optional: true
+    dependencies:
