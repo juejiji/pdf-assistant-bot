@@ -2687,3 +2687,21 @@ packages:
       - '@sap/hana-client'
       - better-sqlite3
       - bluebird
+      - debug
+      - encoding
+      - hdb-pool
+      - ioredis
+      - mongodb
+      - mssql
+      - mysql2
+      - oracledb
+      - pg
+      - pg-native
+      - pg-query-stream
+      - sql.js
+      - supports-color
+      - ts-node
+      - typeorm-aurora-data-api-driver
+    dev: false
+
+  /language-subtag-registry/0.3.22:
