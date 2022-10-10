@@ -4289,3 +4289,28 @@ packages:
       typeorm-aurora-data-api-driver:
         optional: true
     dependencies:
+      '@sqltools/formatter': 1.2.5
+      app-root-path: 3.1.0
+      buffer: 6.0.3
+      chalk: 4.1.2
+      cli-highlight: 2.1.11
+      date-fns: 2.29.3
+      debug: 4.3.4
+      dotenv: 16.0.3
+      glob: 8.1.0
+      js-yaml: 4.1.0
+      mkdirp: 2.1.5
+      reflect-metadata: 0.1.13
+      sha.js: 2.4.11
+      sqlite3: 5.1.6
+      tslib: 2.5.0
+      uuid: 9.0.0
+      xml2js: 0.4.23
+      yargs: 17.7.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
