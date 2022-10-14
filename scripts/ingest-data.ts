@@ -15,3 +15,32 @@ export const run = async () => {
     const loader = new PDFLoader(filePath);
     // const loader = new PDFLoader(filePath);
     const rawDocs = await loader.load();
+
+    console.log(rawDocs);
+
+    /* Split text into chunks */
+    const textSplitter = new RecursiveCharacterTextSplitter({
+      chunkSize: 1000,
+      chunkOverlap: 200,
+    });
+
+    const docs = await textSplitter.splitDocuments(rawDocs);
+    console.log('split docs', docs);
+
+    console.log('creating vector store...');
+    /*create and store the embeddings in the vectorStore*/
+    const embeddings = new OpenAIEmbeddings();
+    const index = pinecone.Index(PINECONE_INDEX_NAME); //change to your own index name
+
+    //embed the PDF documents
+
+    /* Pinecone recommends a limit of 100 vectors per upsert request to avoid errors*/
+    const chunkSize = 50;
+    for (let i = 0; i < docs.length; i += chunkSize) {
+      const chunk = docs.slice(i, i + chunkSize);
+      console.log('chunk', i, chunk);
+      await PineconeStore.fromDocuments(
+        index,
+        chunk,
+        embeddings,
+        'text',
