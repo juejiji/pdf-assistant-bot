@@ -44,3 +44,16 @@ export const run = async () => {
         chunk,
         embeddings,
         'text',
+        PINECONE_NAME_SPACE,
+      );
+    }
+  } catch (error) {
+    console.log('error', error);
+    throw new Error('Failed to ingest your data');
+  }
+};
+
+(async () => {
+  await run();
+  console.log('ingestion complete');
+})();
