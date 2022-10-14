@@ -3,4 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  pad
+  padding: 1rem;
+}
+
+.header {
+ 
