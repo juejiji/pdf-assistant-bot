@@ -28,4 +28,7 @@
   border: 1px solid #d9d9e3;
   background: #ffffff;
   color: #000;
-  outline
+  outline: none;
+}
+
+.textarea:dis
