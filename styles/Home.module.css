@@ -35,3 +35,5 @@
   opacity: 0.5;
 }
 
+.textarea:focus {
+  outline: n
