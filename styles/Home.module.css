@@ -31,4 +31,7 @@
   outline: none;
 }
 
-.textarea:dis
+.textarea:disabled {
+  opacity: 0.5;
+}
+
