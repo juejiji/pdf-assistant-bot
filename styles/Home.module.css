@@ -36,4 +36,5 @@
 }
 
 .textarea:focus {
-  outline: n
+  outline: none;
+  border-colo
