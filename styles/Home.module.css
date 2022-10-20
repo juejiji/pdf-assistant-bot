@@ -63,4 +63,6 @@
 }
 
 .svgicon {
-  transform: rotate(90d
+  transform: rotate(90deg);
+  width: 1.2em;
+  he
