@@ -76,4 +76,5 @@
 
 .generatebutton:disabled {
   opacity: 0.9;
-  cursor: not-allo
+  cursor: not-allowed;
+  backgrou
