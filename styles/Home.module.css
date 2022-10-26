@@ -80,4 +80,6 @@
   background: none;
 }
 
-.messagelist
+.messagelist {
+  width: 100%;
+  
