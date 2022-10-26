@@ -71,4 +71,7 @@
 
 .generatebutton:hover {
   background: #e4575726;
-  border-r
+  border-radius: 0.2rem;
+}
+
+.generatebutton:di
