@@ -77,4 +77,7 @@
 .generatebutton:disabled {
   opacity: 0.9;
   cursor: not-allowed;
-  backgrou
+  background: none;
+}
+
+.messagelist
