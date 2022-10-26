@@ -75,4 +75,5 @@
 }
 
 .generatebutton:disabled {
-  opacit
+  opacity: 0.9;
+  cursor: not-allo
