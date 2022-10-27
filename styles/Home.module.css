@@ -88,4 +88,5 @@
 }
 
 .messagelistloading {
-  
+  display: flex;
+  width: 100%;
