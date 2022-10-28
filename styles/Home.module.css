@@ -90,4 +90,5 @@
 .messagelistloading {
   display: flex;
   width: 100%;
-  justify-content: 
+  justify-content: center;
+  margin-top: 1rem;
