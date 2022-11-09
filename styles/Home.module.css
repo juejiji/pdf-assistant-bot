@@ -108,4 +108,7 @@
   background-position: -100% 0;
   animation: loading-gradient 2s ease-in-out infinite;
   animation-direction: alternate;
-  animation-name: loading-gradien
+  animation-name: loading-gradient;
+}
+
+@keyframes loadi
