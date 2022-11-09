@@ -111,4 +111,6 @@
   animation-name: loading-gradient;
 }
 
-@keyframes loadi
+@keyframes loading-gradient {
+  0% {
+ 
