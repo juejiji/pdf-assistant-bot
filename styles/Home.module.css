@@ -129,3 +129,6 @@
 
 @keyframes fadein {
   from {
+    opacity: 0;
+  }
+  to {
