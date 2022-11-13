@@ -125,3 +125,7 @@
   padding: 1.5rem;
   color: #000;
   animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from {
