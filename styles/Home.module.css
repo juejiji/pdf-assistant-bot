@@ -138,4 +138,5 @@
 
 .apimessage,
 .usermessage,
-.usermess
+.usermessagewaiting {
+  display: flex;
