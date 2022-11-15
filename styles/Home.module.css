@@ -146,4 +146,8 @@
   line-height: 1.75;
 }
 
-.markdownanswer a
+.markdownanswer a:hover {
+  opacity: 0.8;
+}
+
+.mar
