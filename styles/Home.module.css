@@ -142,4 +142,6 @@
   display: flex;
 }
 
-.markdownanswer 
+.markdownanswer {
+  line-height: 1.75;
+}
