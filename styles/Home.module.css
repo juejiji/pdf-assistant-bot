@@ -163,4 +163,8 @@
 
 .markdownanswer ol,
 .markdownanswer ul {
-  margin: 1rem
+  margin: 1rem;
+}
+
+.boticon,
+.usericon 
