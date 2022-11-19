@@ -155,4 +155,5 @@
   font-weight: 500;
 }
 
-.markdownanswer cod
+.markdownanswer code {
+  color: #15cb
