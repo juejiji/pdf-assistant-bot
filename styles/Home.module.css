@@ -162,4 +162,5 @@
 }
 
 .markdownanswer ol,
-.markdow
+.markdownanswer ul {
+  margin: 1rem
