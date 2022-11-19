@@ -167,4 +167,5 @@
 }
 
 .boticon,
-.usericon 
+.usericon {
+  margin-right: 1rem
