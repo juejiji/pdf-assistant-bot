@@ -176,4 +176,5 @@
 .markdownanswer h1,
 .markdownanswer h2,
 .markdownanswer h3 {
- 
+  font-size: inherit;
+}
