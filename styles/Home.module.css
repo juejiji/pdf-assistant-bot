@@ -180,4 +180,5 @@
 }
 
 .center {
-  display: fl
+  display: flex;
+  justify-content: c
