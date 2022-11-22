@@ -185,4 +185,8 @@
   align-items: center;
   position: relative;
   padding: 1rem 0;
-  flex-direction: co
+  flex-direction: column;
+}
+
+.cloud {
+  width:
