@@ -206,4 +206,6 @@
 
 .pointsdim {
   width: 90%;
-  height: 9
+  height: 90%;
+  opacity: 0.25;
+}
