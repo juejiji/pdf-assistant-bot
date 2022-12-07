@@ -225,4 +225,5 @@
   opacity: 0.8;
 }
 
-/* Mobile optimizat
+/* Mobile optimization */
+@media (max-width: 600px) {
