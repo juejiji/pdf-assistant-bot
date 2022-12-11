@@ -228,4 +228,5 @@
 /* Mobile optimization */
 @media (max-width: 600px) {
   .main {
-    pa
+    padding: 1rem;
+    max-heig
