@@ -241,4 +241,5 @@
   }
   .topnav {
     border: 1px solid black;
-    align-i
+    align-items: center;
+    padding: 0
