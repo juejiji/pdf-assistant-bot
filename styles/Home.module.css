@@ -250,4 +250,5 @@
     width: 20rem;
   }
 
-  .markdownanswer 
+  .markdownanswer code {
+    white-space: pre-
