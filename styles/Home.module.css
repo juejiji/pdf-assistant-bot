@@ -252,4 +252,7 @@
 
   .markdownanswer code {
     white-space: pre-wrap !important;
- 
+  }
+
+  .footer {
+    font-size: 0.7re
