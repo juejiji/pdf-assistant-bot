@@ -1,4 +1,5 @@
 /**
  * Chrome has a bug with transitions on load since 2012!
  *
- * To prevent a "pop" of content, you have to disable all transi
+ * To prevent a "pop" of content, you have to disable all transitions until
+ * t
