@@ -2,4 +2,6 @@
  * Chrome has a bug with transitions on load since 2012!
  *
  * To prevent a "pop" of content, you have to disable all transitions until
- * the page is done loading
+ * the page is done loading.
+ *
+ * https://lab.
