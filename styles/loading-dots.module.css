@@ -8,4 +8,5 @@
 }
 
 .loading span {
-  animat
+  animation-name: blink;
+  ani
