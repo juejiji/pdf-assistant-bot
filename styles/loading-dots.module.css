@@ -13,4 +13,5 @@
   animation-iteration-count: infinite;
   animation-fill-mode: both;
   width: 5px;
-  height: 
+  height: 5px;
+  border-radius: 50%;
