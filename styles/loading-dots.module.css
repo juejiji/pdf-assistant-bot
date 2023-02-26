@@ -15,4 +15,8 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  display: inline-bl
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.l
