@@ -24,4 +24,7 @@
 }
 
 .loading span:nth-of-type(3) {
-  anima
+  animation-delay: 0.4s;
+}
+
+.loadi
