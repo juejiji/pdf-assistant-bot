@@ -23,4 +23,5 @@
   animation-delay: 0.2s;
 }
 
-.loading span:nth-o
+.loading span:nth-of-type(3) {
+  anima
