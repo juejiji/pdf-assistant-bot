@@ -32,4 +32,7 @@
   align-items: center;
 }
 
-.loading2 .space
+.loading2 .spacer {
+  margin-right: 2px;
+}
+
