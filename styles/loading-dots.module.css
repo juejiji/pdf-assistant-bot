@@ -29,4 +29,7 @@
 
 .loading2 {
   display: inline-flex;
-  align-items: cent
+  align-items: center;
+}
+
+.loading2 .space
