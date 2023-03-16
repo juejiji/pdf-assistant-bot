@@ -37,4 +37,5 @@
 }
 
 .loading2 span {
-  animat
+  animation-name: blink;
+  animation-du
