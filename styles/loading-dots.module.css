@@ -39,4 +39,5 @@
 .loading2 span {
   animation-name: blink;
   animation-duration: 1.4s;
-  animati
+  animation-iteration-count: infinite;
+  anim
