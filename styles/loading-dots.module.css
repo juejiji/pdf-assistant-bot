@@ -40,4 +40,6 @@
   animation-name: blink;
   animation-duration: 1.4s;
   animation-iteration-count: infinite;
-  animation-fill-mode: bot
+  animation-fill-mode: both;
+  width: 4px;
+  heig
