@@ -45,4 +45,7 @@
   height: 4px;
   border-radius: 50%;
   display: inline-block;
-  margin: 0 1p
+  margin: 0 1px;
+}
+
+.loading2 span:nth-of-type(
