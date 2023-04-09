@@ -48,4 +48,5 @@
   margin: 0 1px;
 }
 
-.loading2 span:nth-of-type(
+.loading2 span:nth-of-type(2) {
+  animation-del
