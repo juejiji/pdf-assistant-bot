@@ -52,4 +52,5 @@
   animation-delay: 0.2s;
 }
 
-.loading2 span:nth-of-type(3)
+.loading2 span:nth-of-type(3) {
+  animation-delay: 0.4s;
