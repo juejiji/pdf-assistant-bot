@@ -56,4 +56,6 @@
   animation-delay: 0.4s;
 }
 
-@keyframes blink 
+@keyframes blink {
+  0% {
+    opaci
