@@ -1,1 +1,2 @@
-/** @type {import('tailwindcss').C
+/** @type {import('tailwindcss').Config} */
+module.exports = {
