@@ -1,1 +1,1 @@
-/** @type {i
+/** @type {import('tailwindcss').C
