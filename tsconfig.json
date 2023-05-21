@@ -1,3 +1,4 @@
 {
   "compilerOptions": {
-    "targe
+    "target": "es2020",
+    "lib"
