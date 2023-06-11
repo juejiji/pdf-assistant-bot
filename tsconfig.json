@@ -6,4 +6,5 @@
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit"
+    "noEmit": true,
+    "esModuleInt
