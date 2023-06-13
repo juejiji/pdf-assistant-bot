@@ -8,4 +8,5 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "es
+    "module": "esnext",
+    "moduleResol
