@@ -11,4 +11,4 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
- 
+    "isolatedModules": t
