@@ -15,4 +15,6 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
-    "plug
+    "plugins": [
+      {
+        "name
