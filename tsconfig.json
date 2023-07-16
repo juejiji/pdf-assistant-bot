@@ -24,4 +24,4 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
