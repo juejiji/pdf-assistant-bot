@@ -1,1 +1,1 @@
-import { Document } from 'l
+import { Document } from 'langchain/document';
