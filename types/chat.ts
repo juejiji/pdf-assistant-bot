@@ -1,3 +1,4 @@
 import { Document } from 'langchain/document';
 
-export type Message
+export type Message = {
+  type: 'apiMessage' | 'us
