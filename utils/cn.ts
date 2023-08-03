@@ -1,2 +1,3 @@
 import { ClassValue, clsx } from 'clsx';
-import { twMerge } from 
+import { twMerge } from 'tailwind-merge';
+
