@@ -1,2 +1,2 @@
 import { OpenAIChat } from 'langchain/llms';
-import { LLMChain, ChatVectorDBQAChain, loadQAChain } 
+import { LLMChain, ChatVectorDBQAChain, loadQAChain } from 'langchain/chains
