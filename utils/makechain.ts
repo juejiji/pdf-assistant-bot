@@ -5,4 +5,4 @@ import { PromptTemplate } from 'langchain/prompts';
 import { CallbackManager } from 'langchain/callbacks';
 
 const CONDENSE_PROMPT =
-  PromptTemplate.fromTempla
+  PromptTemplate.fromTemplate(`Given the following 
