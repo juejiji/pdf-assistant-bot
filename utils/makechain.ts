@@ -9,4 +9,5 @@ const CONDENSE_PROMPT =
 
 Chat History:
 {chat_history}
-Follow Up Inp
+Follow Up Input: {question}
+Standalone que
