@@ -10,4 +10,6 @@ const CONDENSE_PROMPT =
 Chat History:
 {chat_history}
 Follow Up Input: {question}
-Standalone que
+Standalone question:`);
+
+const QA_PROMP
