@@ -12,4 +12,5 @@ Chat History:
 Follow Up Input: {question}
 Standalone question:`);
 
-const QA_PROMPT = PromptTemplate.fromT
+const QA_PROMPT = PromptTemplate.fromTemplate(
+  `You are an AI as
