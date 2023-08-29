@@ -12,4 +12,4 @@ Chat History:
 Follow Up Input: {question}
 Standalone question:`);
 
-const QA_PROMP
+const QA_PROMPT = PromptTemplate.fromT
