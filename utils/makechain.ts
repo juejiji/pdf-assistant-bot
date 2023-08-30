@@ -13,4 +13,4 @@ Follow Up Input: {question}
 Standalone question:`);
 
 const QA_PROMPT = PromptTemplate.fromTemplate(
-  `You are an AI assistant providing h
+  `You are an AI assistant providing helpful advice. You are
