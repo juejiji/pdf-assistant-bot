@@ -19,4 +19,6 @@ If you can't find the answer in the context below, just say "Hmm, I'm not sure."
 If the question is not related to the context, politely respond that you are tuned to only answer questions that are related to the context.
 
 Question: {question}
-==
+=========
+{context}
+=========
