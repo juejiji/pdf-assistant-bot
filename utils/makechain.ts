@@ -25,4 +25,4 @@ Question: {question}
 Answer in Markdown:`,
 );
 
-e
+export const makeChain
