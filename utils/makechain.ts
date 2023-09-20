@@ -26,4 +26,5 @@ Answer in Markdown:`,
 );
 
 export const makeChain = (
-  vectorstore: P
+  vectorstore: PineconeStore,
+  onTokenStream?:
