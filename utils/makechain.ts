@@ -25,4 +25,5 @@ Question: {question}
 Answer in Markdown:`,
 );
 
-export const makeChain
+export const makeChain = (
+  vectorstore: P
