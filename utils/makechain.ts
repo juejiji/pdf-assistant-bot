@@ -27,4 +27,5 @@ Answer in Markdown:`,
 
 export const makeChain = (
   vectorstore: PineconeStore,
-  onTokenStream?:
+  onTokenStream?: (token: string) => void,
+) => {
