@@ -29,3 +29,4 @@ export const makeChain = (
   vectorstore: PineconeStore,
   onTokenStream?: (token: string) => void,
 ) => {
+  const questionGenerator 
