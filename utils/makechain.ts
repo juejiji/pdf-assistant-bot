@@ -29,4 +29,5 @@ export const makeChain = (
   vectorstore: PineconeStore,
   onTokenStream?: (token: string) => void,
 ) => {
-  const questionGenerator 
+  const questionGenerator = new LLMChain({
+    ll
