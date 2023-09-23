@@ -30,4 +30,4 @@ export const makeChain = (
   onTokenStream?: (token: string) => void,
 ) => {
   const questionGenerator = new LLMChain({
-    ll
+    llm: new OpenAIChat({ 
