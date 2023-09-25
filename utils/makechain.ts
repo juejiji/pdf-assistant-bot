@@ -32,4 +32,5 @@ export const makeChain = (
   const questionGenerator = new LLMChain({
     llm: new OpenAIChat({ temperature: 0 }),
     prompt: CONDENSE_PROMPT,
-  
+  });
+  const docChain =
