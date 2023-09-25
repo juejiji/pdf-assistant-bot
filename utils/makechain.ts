@@ -33,4 +33,5 @@ export const makeChain = (
     llm: new OpenAIChat({ temperature: 0 }),
     prompt: CONDENSE_PROMPT,
   });
-  const docChain =
+  const docChain = loadQAChain(
+  
