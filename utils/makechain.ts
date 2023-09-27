@@ -36,4 +36,4 @@ export const makeChain = (
   const docChain = loadQAChain(
     new OpenAIChat({
       temperature: 0,
-      modelN
+      modelName: 'gpt-4', //change this to
