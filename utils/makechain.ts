@@ -34,4 +34,5 @@ export const makeChain = (
     prompt: CONDENSE_PROMPT,
   });
   const docChain = loadQAChain(
-  
+    new OpenAIChat({
+      tempera
