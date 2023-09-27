@@ -35,4 +35,5 @@ export const makeChain = (
   });
   const docChain = loadQAChain(
     new OpenAIChat({
-      tempera
+      temperature: 0,
+      modelN
