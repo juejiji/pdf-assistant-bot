@@ -38,3 +38,4 @@ export const makeChain = (
       temperature: 0,
       modelName: 'gpt-4', //change this to older versions (e.g. gpt-3.5-turbo) if you don't have access to gpt-4
       streaming: Boolean(onTokenStream),
+      callbackManage
