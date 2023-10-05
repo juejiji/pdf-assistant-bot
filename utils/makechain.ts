@@ -40,4 +40,5 @@ export const makeChain = (
       streaming: Boolean(onTokenStream),
       callbackManager: onTokenStream
         ? CallbackManager.fromHandlers({
-            async handleLL
+            async handleLLMNewToken(token) {
+     
