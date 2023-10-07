@@ -42,4 +42,5 @@ export const makeChain = (
         ? CallbackManager.fromHandlers({
             async handleLLMNewToken(token) {
               onTokenStream(token);
-              con
+              console.log(token);
+            
