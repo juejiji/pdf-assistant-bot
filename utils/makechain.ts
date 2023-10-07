@@ -43,4 +43,6 @@ export const makeChain = (
             async handleLLMNewToken(token) {
               onTokenStream(token);
               console.log(token);
-            
+            },
+          })
+   
