@@ -50,4 +50,4 @@ export const makeChain = (
     { prompt: QA_PROMPT },
   );
 
-  re
+  return new ChatVectorDBQAChain({
