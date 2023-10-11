@@ -47,4 +47,7 @@ export const makeChain = (
           })
         : undefined,
     }),
-    { pr
+    { prompt: QA_PROMPT },
+  );
+
+  re
