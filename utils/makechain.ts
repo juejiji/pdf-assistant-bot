@@ -51,3 +51,5 @@ export const makeChain = (
   );
 
   return new ChatVectorDBQAChain({
+    vectorstore,
+    comb
