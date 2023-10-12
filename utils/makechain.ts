@@ -52,4 +52,5 @@ export const makeChain = (
 
   return new ChatVectorDBQAChain({
     vectorstore,
-    combineDocumentsCh
+    combineDocumentsChain: docChain,
+    questi
