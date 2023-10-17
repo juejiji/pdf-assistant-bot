@@ -55,4 +55,6 @@ export const makeChain = (
     combineDocumentsChain: docChain,
     questionGeneratorChain: questionGenerator,
     returnSourceDocuments: true,
-    k: 2, //number of source 
+    k: 2, //number of source documents to return
+  });
+};
