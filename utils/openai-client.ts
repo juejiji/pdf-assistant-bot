@@ -1,3 +1,4 @@
 import { OpenAI } from 'langchain/llms';
 
-if (!process.
+if (!process.env.OPENAI_API_KEY) {
+  thro
