@@ -12,3 +12,23 @@ You're welcome to [Get in touch via twitter if you have questions](https://twitt
 The visual guide of this repository and tutorial can be found in the `visual guide` folder.
 
 In case you face any issues, kindly refer to the troubleshooting section available further down this page.
+
+## Development
+
+Please follow the steps below:
+
+1. Clone the repository
+
+```
+git clone [github https url]
+```
+
+2. Install packages
+
+```
+pnpm install
+```
+
+3. Set up your `.env` file
+
+- Use `.env.example` as a guide to create `.env`
