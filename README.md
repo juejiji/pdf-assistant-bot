@@ -32,3 +32,33 @@ pnpm install
 3. Set up your `.env` file
 
 - Use `.env.example` as a guide to create `.env`
+  The contents in your `.env` file should look like this:
+
+```
+OPENAI_API_KEY=
+
+PINECONE_API_KEY=
+PINECONE_ENVIRONMENT=
+```
+
+- Retrieve API keys from [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) and [pinecone](https://pinecone.io/).
+
+4. Replace the `PINECONE_INDEX_NAME` and `PINECONE_NAME_SPACE` in the `config` folder with your own details from your Pinecone dashboard.
+
+5. Adjust the `QA_PROMPT` in `utils/makechain.ts` for your own usecase. Change `modelName` in `new OpenAIChat` to a different API model if you don't have access to `gpt-4`. Refer to [the OpenAI docs](https://platform.openai.com/docs/models/model-endpoint-compatibility) for a list of supported `modelName`s. For instance, you could use `gpt-3.5-turbo` if you do not have access to `gpt-4`.
+
+## Convert your PDF to embeddings
+
+Follow the instructions mentioned below:
+
+1. Replace the pdf in the `docs` folder with your own document.
+
+2. Replace `filePath` in `scripts/ingest-data.ts` with `docs/{yourdocname}.pdf`
+
+3. Run the `pnpm run ingest` command to 'ingest' and embed your documents
+
+4. Cross-verify from your Pinecone dashboard that your namespace and vectors have been added.
+
+## Run the app
+
+Once you have confirmed that the embeddings and content have been successfully added to Pinecone, you can run `pnpm run dev` to start the local development setup. Then, go ahead and type your query in the chat interface.
