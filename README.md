@@ -62,3 +62,27 @@ Follow the instructions mentioned below:
 ## Run the app
 
 Once you have confirmed that the embeddings and content have been successfully added to Pinecone, you can run `pnpm run dev` to start the local development setup. Then, go ahead and type your query in the chat interface.
+
+## Troubleshooting
+
+Refer to the `issues` and `discussions` section of this repository for any solutions.
+
+**General errors**
+
+- Ensure that you're running the recent Node version.
+- Confirm that you're using the compatible versions of LangChain and Pinecone.
+- Check if you've added all your valid API keys in the `.env` file.
+- If you change `modelName` in `OpenAIChat`, ensure that the correct name of the alternative model is `gpt-3.5-turbo`
+- Keep replenishing API requests to Pinecone to reset the index deletion counter for inactive users using the Starter(free) plan.
+
+**Pinecone errors**
+
+- Make sure your Pinecone dashboard `environment` and `index` match the details in your `config` folder.
+- Ensure that the vector dimensions are set to `1536`.
+- Switch the Pinecone environment to `us-east1-gcp` in case of any issues with the existing one.
+
+If all these actions fail to resolve the problem, delete `node_modules`, restart your system, then run `pnpm install` again.
+
+## Credit
+
+The frontend of this project is inspired by [langchain-chat-nextjs](https://github.com/zahidkhawaja/langchain-chat-nextjs).
